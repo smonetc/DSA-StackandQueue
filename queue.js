@@ -44,3 +44,14 @@ class Queue {
       return node.value;
    }
 } 
+
+
+const starTrekQ = new Queue();
+starTrekQ.enqueue('Kirk');
+starTrekQ.enqueue('Spock');
+starTrekQ.enqueue('Uhura');
+starTrekQ.enqueue('Sulu');
+starTrekQ.enqueue('Checkov')
+
+
+console.log(starTrekQ.dequeue())
